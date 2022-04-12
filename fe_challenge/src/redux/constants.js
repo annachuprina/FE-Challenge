@@ -1,0 +1,7 @@
+export const SEARCH_JOBS = 'SEARCH_JOBS';
+export const SEARCH_JOBS_SUCCESS = 'SEARCH_JOBS_SUCCESS';
+export const SEARCH_JOBS_ERROR = 'SEARCH_JOBS_ERROR';
+
+export const GET_JOBS = 'GET_JOBS'
+export const GET_JOBS_SUCCESS = 'GET_JOBS_SUCCESS'
+export const GET_JOBS_ERROR = 'GET_JOBS_ERROR'

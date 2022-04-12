@@ -1,0 +1,141 @@
+.cards{
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: start;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    column-gap: 30px;
+    row-gap: 60px;
+}
+.card{
+    display: grid;
+    grid-gap: 20px;
+    align-content: center;
+    width: 425px;
+    height: auto;
+    top: 465px;
+    background: #363A42;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    filter: drop-shadow(3px 3px 2px rgba(20, 21, 23, 0.35));
+
+}
+.card:hover{
+    cursor: pointer;
+
+}
+.companyLogo{
+    width: 40px;
+    background: var(--black-color);
+    border-radius: 3px;
+    box-shadow: 2px 2px 0px var(--black-color);
+}
+.card_header{
+    display: grid;
+    grid-template-columns: 40px auto;
+    margin-left: 25px;
+    column-gap: 12px;
+    color: var(--notactive-text-color);
+    align-items: center;
+
+}
+.companyName{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.5px;
+}
+.location{
+    font-family: 'Roboto', regular;
+    src: url("./Roboto-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+.statusBar{
+    position: absolute;
+    top: -5px;
+    width: 421px;
+    height: 5px;
+    background: #B0B3B5;
+    border-radius: 6px 6px 0px 0px; 
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.jobTitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--active-text-color);
+    margin-left: 25px;
+}
+.categories{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.category{ 
+    background: #5078BF;
+    border: 1px solid #EFF3F5;
+    border-radius: 3px;
+    width: auto;
+    padding: 5px;
+    padding: 8px 10px 8px 10px;
+    color: var(--active-text-color);
+    font-family: 'Roboto', regular;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.locationLogo{
+    margin-right: 5px;
+}
+.bottomInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: var(--notactive-text-color);
+    font-family: 'Roboto', regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    align-content: center;
+}
+.numberOfVideo{
+    text-align: left;
+}
+.date{
+    text-align: right;
+}
+.noJobs{
+    color: var(--active-text-color);
+}
+
+@media (max-width: 600px){ 
+    .cards{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+    .statusBar{
+        width: auto;
+    }
+}
