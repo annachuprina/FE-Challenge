@@ -120,10 +120,15 @@
     align-content: center;
 }
 .numberOfVideo{
-    text-align: left;
+    display: flex;
+    vertical-align: middle;
+    align-items:center;
 }
 .date{
-    text-align: right;
+    display: flex;
+    vertical-align: middle;
+    align-items:center;
+    justify-content: flex-end
 }
 .noJobs{
     color: var(--active-text-color);
@@ -133,7 +138,7 @@
     .cards{
         padding-left: 20px;
         padding-right: 20px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     .statusBar{
         width: auto;
