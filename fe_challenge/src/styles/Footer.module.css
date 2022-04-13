@@ -34,6 +34,9 @@
     font-size: 17px;
     line-height: 20px;
 }
+.links, .docs, .icon:hover{
+    cursor: pointer;
+}
 @media (max-width: 600px){ 
     .links{
         font-size: 11px;

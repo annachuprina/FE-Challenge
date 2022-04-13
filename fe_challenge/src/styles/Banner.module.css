@@ -35,9 +35,9 @@
         display: table-cell;
         width: 100vw;
         height:  auto;
-        background-size: cover;
-        background-image: url(../images/banner_2.jpg);
+        background-image: url(../images/banner_1.jpg);
         color: var(--active-text-color);
+        background-repeat: no-repeat;
     }
     .mainText{
         font-size: 32px;
